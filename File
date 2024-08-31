@@ -1,0 +1,10 @@
+Python
+with open("new_file.txt", "w") as file:
+    file.write("Hello, world!\n")
+Use code with caution.
+
+This code:
+
+Opens a file: The open() function opens the file named "new_file.txt" in "write" mode ("w"). This creates a new file if it doesn't exist or overwrites an existing file.
+Writes to the file: The file.write() method writes the string "Hello, world!\n" to the file. The \n character adds a newline.
+Closes the file: The with statement automatically closes the file when the block is exited, ensuring that the file is written correctly.
